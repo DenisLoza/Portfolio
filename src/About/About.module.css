@@ -1,0 +1,18 @@
+.about {
+    height: 100vh;
+    background-color: cornsilk;
+}
+
+.wrap {
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid;
+}
+
+.gridItem {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(355px, 1fr));
+    grid-gap: 10px;
+}

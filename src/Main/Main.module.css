@@ -1,0 +1,28 @@
+.main {
+    /*Видимая высота блока 100% экрана*/
+    height: 100vh;
+    background-color: #92d7f1;
+}
+/*Обертка для блока Main*/
+.wrap {
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid;
+    display: flex;
+    /*При сжатии ширины контент будет выстраиваться друг под другом*/
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text {
+    width: 300px;
+    background-color: lavender;
+}
+
+.photo {
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+}
