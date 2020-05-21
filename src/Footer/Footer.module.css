@@ -1,0 +1,32 @@
+.footerContact {
+    height: 200px;
+    background-color: lightblue;
+
+}
+
+.wrap {
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.title {
+
+}
+
+.links {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.button {
+    margin-top: 20px;
+
+}

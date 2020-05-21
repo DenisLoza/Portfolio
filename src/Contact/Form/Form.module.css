@@ -1,0 +1,16 @@
+.form {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.inputName {
+    height: 30px;
+    margin-bottom: 20px;
+}
+.inputEmail {
+    height: 30px;
+    margin-bottom: 20px;
+}
+.textarea {
+    height: 200px;
+}

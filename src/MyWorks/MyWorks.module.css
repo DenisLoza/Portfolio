@@ -1,0 +1,20 @@
+.myWorks {
+    height: 100vh;
+    background-color: lightsteelblue;
+}
+.wrap {
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid;
+}
+
+.title {
+    text-align: center;
+}
+
+.flexItem {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

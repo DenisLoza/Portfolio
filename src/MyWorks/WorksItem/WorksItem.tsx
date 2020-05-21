@@ -1,16 +1,17 @@
 import React from 'react';
-import s from './Item.module.css';
+import s from './WorksItem.module.css';
 
-type ItemType = {
+
+type WorksItemType = {
     title: string
     description: string
 }
 
-function Item(props: ItemType) {
+function WorksItem(props: WorksItemType) {
     return (
         <div className={s.item}>
             <div className={s.icon}></div>
-            <h3 className={s.title}>{props.title}</h3>
+            <h3>{props.title}</h3>
             <div className={s.description}>
                 {props.description}
             </div>
@@ -18,4 +19,4 @@ function Item(props: ItemType) {
     );
 }
 
-export default Item;
+export default WorksItem;
