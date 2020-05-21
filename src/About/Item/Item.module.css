@@ -1,10 +1,11 @@
 .item {
-    width: 355px;
+    width: 100%;
     min-height: 360px;
     font-size: 10px;
     padding: 10px 10px;
     background: gold;
     text-align: center;
+    box-sizing: border-box;
 }
 
 .icon {
