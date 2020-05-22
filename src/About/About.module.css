@@ -13,7 +13,7 @@
 
 .gridItem {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(355px, 400px));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 400px));
     grid-gap: 1rem;
     grid-auto-flow: dense;
     justify-content: center;

@@ -20,7 +20,8 @@
 }
 
 .links {
-    width: 300px;
+    font-size: 14px;
+    width: 270px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -28,5 +29,4 @@
 }
 .button {
     margin-top: 20px;
-
 }
